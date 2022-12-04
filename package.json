@@ -1,4 +1,10 @@
 {
+  "scripts":{
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run": "npx cypress run --browser chrome",
+    "cy:open": "npx cypress open",
+    "cy:report": "npx cypress run --record --key 22c2e7a2-8061-4aa7-ba3a-40f715820b4b"
+  },
   "dependencies": {
     "cypress": "^11.2.0",
     "faker": "^5.5.3"
